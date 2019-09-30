@@ -8,7 +8,7 @@
 
 (def build-spec
   '("outlook"
-    (exe: "outlook" "-ld-options" "-lyaml -lssl -lz -L/usr/local/lib/" "-cc-options" "-I/usr/local/include")
+    (exe: "outlook" "-ld-options" "-lyaml  -lz -L/usr/local/lib/" "-cc-options" "-I/usr/local/include")
     ))
 
 (def build-spec-static

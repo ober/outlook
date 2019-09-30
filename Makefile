@@ -1,6 +1,6 @@
 docker:
-	docker build --rm=true -t outlook .
-	docker tag outlook jaimef/outlook
+	docker build --rm=true -t jira .
+	docker tag jira jaimef/jira
 
 push:
-	docker push jaimef/outlook
+	docker push jaimef/jira
